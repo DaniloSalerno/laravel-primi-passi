@@ -18,13 +18,13 @@
             <div class="container">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
+                        <a class="nav-link text-white" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ url('/about') }}">About</a>
+                        <a class="nav-link text-white" href="{{ route('about') }}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ url('/contacts') }}">Contacts</a>
+                        <a class="nav-link text-white" href="{{ route('contacts') }}">Contacts</a>
                     </li>
                 </ul>
             </div>
