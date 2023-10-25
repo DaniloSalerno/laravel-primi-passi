@@ -7,13 +7,41 @@
 
     <title>Laravel primi passi</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body class="antialiased">
 
-    <h1>Hello world!</h1>
+    <header>
+        <nav class="bg-dark py-4">
+            <div class="container">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ url('/about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ url('/contacts') }}">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Home page</h1>
+                <p class="col-md-8 fs-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis mollitia libero assumenda et distinctio, sit autem praesentium voluptate iure eius voluptatibus nisi dignissimos quisquam iusto molestiae. Laudantium ducimus enim quibusdam quas. Voluptas nisi quisquam reiciendis quidem iure, autem, est quasi non dolorem odit odio voluptate magni placeat minima dicta qui repellendus nemo ut beatae nihil laboriosam, necessitatibus dolores ea. Dolore iste obcaecati deserunt amet, aut animi dolorem quam. Minima, ducimus ad. Totam delectus quaerat unde laborum illo sint doloremque. Minima architecto labore iure libero autem hic! Magnam, amet. Consequuntur rem hic vero natus at quisquam voluptatibus ipsam quod sint sequi autem, nulla, amet ea aut reiciendis optio voluptates ut illo eius dicta distinctio culpa adipisci cumque! Quasi natus distinctio est nihil. Reprehenderit voluptatibus placeat obcaecati! Dolor repudiandae dolorum inventore ex numquam ullam consequuntur, corporis natus veritatis. Ratione voluptatem quaerat doloremque saepe non odit modi, distinctio enim nobis ipsam harum vero repudiandae, ex reprehenderit suscipit labore, aperiam aliquam impedit inventore id ipsum. Magnam esse ipsa iusto, facere quaerat aliquam! Deserunt quidem vel quia dolor asperiores consequuntur ratione fugiat accusantium labore aspernatur, velit vitae veritatis pariatur iure cumque odit sequi! Quod excepturi rem doloremque ipsum beatae porro. Sit eum perspiciatis in repellendus?
+                </p>
+                <a href="{{ url('/contacts') }}" class="btn btn-primary btn-lg" type="button">About</a>
+            </div>
+        </div>
+    </main>
 
 </body>
 
