@@ -11,7 +11,7 @@
                 {{$message}}
             </p>
 
-            <a href="{{ url('/about') }}" class="btn btn-primary btn-lg" type="button">About</a>
+            <a href="{{ route('about') }}" class="btn btn-primary btn-lg" type="button">About</a>
         </div>
     </div>
 </main>
