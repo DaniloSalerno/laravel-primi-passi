@@ -34,9 +34,13 @@
     <main>
         <div class="p-5 mb-4 bg-light rounded-3">
             <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">About page</h1>
+
+                <h1 class="display-5 fw-bold">
+                    {{$title}}
+                </h1>
+
                 <p class="col-md-8 fs-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis mollitia libero assumenda et distinctio, sit autem praesentium voluptate iure eius voluptatibus nisi dignissimos quisquam iusto molestiae. Laudantium ducimus enim quibusdam quas. Voluptas nisi quisquam reiciendis quidem iure, autem, est quasi non dolorem odit odio voluptate magni placeat minima dicta qui repellendus nemo ut beatae nihil laboriosam, necessitatibus dolores ea. Dolore iste obcaecati deserunt amet, aut animi dolorem quam. Minima, ducimus ad. Totam delectus quaerat unde laborum illo sint doloremque. Minima architecto labore iure libero autem hic! Magnam, amet. Consequuntur rem hic vero natus at quisquam voluptatibus ipsam quod sint sequi autem, nulla, amet ea aut reiciendis optio voluptates ut illo eius dicta distinctio culpa adipisci cumque! Quasi natus distinctio est nihil. Reprehenderit voluptatibus placeat obcaecati! Dolor repudiandae dolorum inventore ex numquam ullam consequuntur, corporis natus veritatis. Ratione voluptatem quaerat doloremque saepe non odit modi, distinctio enim nobis ipsam harum vero repudiandae, ex reprehenderit suscipit labore, aperiam aliquam impedit inventore id ipsum. Magnam esse ipsa iusto, facere quaerat aliquam! Deserunt quidem vel quia dolor asperiores consequuntur ratione fugiat accusantium labore aspernatur, velit vitae veritatis pariatur iure cumque odit sequi! Quod excepturi rem doloremque ipsum beatae porro. Sit eum perspiciatis in repellendus?
+                    {{$message}}
                 </p>
             </div>
         </div>
